@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Donateur extends Model
+{
+    use HasFactory;
+
+    protected $table = 'donateur';
+    public $timestamps = false;
+}

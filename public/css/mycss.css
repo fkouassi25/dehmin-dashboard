@@ -1,0 +1,56 @@
+.dataTables_length label {
+    display: flex !important;   
+}
+
+.dataTables_length label select {
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+}
+
+.dataTables_filter label {
+    display: flex !important;
+}
+
+.dataTables_filter label input {
+    margin-left: 5px !important;
+}
+
+.my-custom-btn {
+    width: 100%;
+    font-weight: bold;
+    text-align: left;
+    border: 1px solid #00000026;
+    padding: 5px;
+    background: url(../img/sidemenu-repeat.jpg) repeat-x;
+    line-height: 26px;
+}
+
+.submenu a {
+    text-decoration: none !important;
+    background: #ddd;
+    border-bottom: 1px solid #eee;
+    line-height: 26px;
+    font-size: 11px;
+    color: black;
+}
+
+.active_a {
+    background: rgba(0,123,255,.25) !important;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.mycontain {
+    height: 100% !important;
+}
+
+.container_12 {
+    min-height: 95% !important;
+}
+
+#site_info {
+    min-height: 5% !important;
+}
