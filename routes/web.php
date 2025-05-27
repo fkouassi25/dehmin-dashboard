@@ -26,9 +26,6 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-
 
 // Auth routes
 Route::get('/sign_up_user', [AuthController::class, 'signUpForm']);
@@ -93,3 +90,5 @@ Route::get('/test_sms', [BonController::class, 'test_sms']);
 // BeneficiaireController Test routes
 // Route::get('/clean_db', [BeneficiaireController::class, 'clean_db_benef']);
 Route::get('/test_api_mtn', [BeneficiaireController::class, 'test_api_mtn']);
+
+
